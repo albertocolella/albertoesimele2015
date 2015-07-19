@@ -620,6 +620,29 @@ li.active a {
   overflow: hidden;
   width: 100%;
 }
+#contatti:before {
+  content: ' ';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  opacity: 0.4;	
+	background: url('../images/38F072B2D5.jpg');
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-position: center bottom;
+}
+#contatti {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
 .bg-white:before {
   content: ' ';
   display: block;
@@ -652,7 +675,8 @@ li.active a {
 	margin-bottom:10%;
 }
 #viaggio h2,
-#matrimonio h2{
+#matrimonio h2,
+#contatti h2{
   font-family: 'Pacifico', cursive;
 }
  
@@ -691,9 +715,29 @@ li.active a {
 #matrimonio .adr{
 	font-weight: bold;
 }
-.nav-lang{
+.nav-lang {
 	position:fixed;
 	right:0;
 	top:0;
 	z-index:99;
+	background: rgba(0, 0, 0, 0.5) none repeat scroll 0 0;
+}
+.nav-lang a {
+	color: #FFFFFF;
+	font-weight: bold;
+}
+.nav-lang .nav-pills > li > a:hover,
+.nav-lang .nav-pills > li > a:focus {
+	color: #FFFFFF;
+	font-weight: bold;
+	background: #000000 none repeat scroll 0 0;	
+}
+.facebook {
+	color: blue;
+}
+.mail {
+	color: #000000;
+}
+.website {
+	color: #000000;
 }

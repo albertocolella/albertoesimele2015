@@ -11,7 +11,6 @@ $(document).ready(function(){
     $('.main').moveTo(1);
   });
 
-
   $.i18n.init({
       //lng: 'en',
       escapeInterpolation: false,
@@ -22,5 +21,15 @@ $(document).ready(function(){
       $('#home').i18n();
       $('#matrimonio').i18n();
       $('#viaggio').i18n();
+      $('#contatti').i18n();
+  });
+  $(".alberto .mail").click(function(e) { 
+    e.preventDefault();
+    window.location.href = mailto("alberto.colella+matrimonio2015", "gmail.com", ""); 
   });
 });
+
+
+function mailto(user, domain, subject){ 
+  return "mai" + "lto" + ":" + user + "@" + domain + "?subject=" + subject ;
+};
