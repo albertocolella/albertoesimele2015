@@ -1,0 +1,691 @@
+/* 
+Author URI: http://webthemez.com/ 
+Donate to remove backlink form the template.
+*/
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700,600);
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,700);
+@import url(http://fonts.googleapis.com/css?family=Pacifico);
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans', sans-serif;
+}
+body {
+	height: 100%;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	line-height: 1.7;
+	color: #000000;
+	-webkit-font-smoothing: antialiased;
+	-webkit-text-size-adjust: 100%;
+	background: #fff;
+	transition: all 0.3s linear;
+	-webkit-transition: all 0.3s linear;
+	-moz-transition: all 0.3s linear;
+	-o-transition: all 0.3s linear;
+}
+::selection {
+	color: #fff;
+	background: #F049B2;
+}
+
+::-moz-selection {
+ color: #fff;
+ background: #FFD500;
+}
+p {
+	color: #000000;
+	margin: 0 0 1em !important;
+}
+h1, h2, h3, h4, h5, h6, #home .heading strong {
+	font-family: 'Raleway', sans-serif;
+}
+.fitImage {
+	max-width: 100%;
+	vertical-align: middle;
+	display: inline-block;
+}
+.animated {
+	animation-duration: 1s;
+	-webkit-animation-delay: 0s;
+	animation-delay: 0s;
+}
+.mcbook {
+	opacity: 0;
+}
+.show {
+	opacity: 1;
+}
+.pDark p {
+	color: #6D6D6D;
+}
+.pDark h3 {
+	color: #BEBEBE;
+}
+.btn {
+	background: #FFD500;
+}
+.btn:hover {
+	background: #145AC4;
+}
+.btn, .form-control, .team-socials i {
+	border-radius: 5px !important;
+}
+.form-group {
+	margin: 0 auto;
+	margin-bottom: 15px;
+	width: 75%;
+}
+.form-control {
+	border: none;
+	padding: 22px 4px;
+	outline: none;
+	color: #FFFFFF;
+	margin: 0;
+	width: 210px;
+	max-width: 100%;
+	display: block;
+	margin-bottom: 20px;
+	background: rgba(255, 254, 254, 1);
+	font-size: inherit;
+	border-radius: 0px !important;
+	width: 99%;
+}
+.button-outline {
+	-webkit-font-smoothing: antialiased;
+	display: inline-block;
+	vertical-align: middle;
+	zoom: 1;
+	color: #fff;
+	padding: 10px 25px;
+	border: 2px solid #fff;
+	border-radius: 0px;
+	font-size: 16px;
+	font-weight: 400;
+	background: rgba(255,255,255,0.15);
+}
+.button-outline:hover {
+	color: #fff;
+	background: rgba(255,255,255,0.35);
+}
+a {
+	color: red;
+	text-decoration: none;
+	text-shadow: none;
+	-webkit-transition: all 0.2s linear;
+	-moz-transition: all 0.2s linear;
+	-ms-transition: all 0.2s linear;
+	-o-transition: all 0.2s linear;
+	transition: all 0.2s linear;
+}
+a:hover {
+	color: #000;
+	text-decoration: none;
+}
+h2, .h2 {
+	font-size: 70px;
+}
+/* IE7 inline-block hack */
+*+html .styled div {
+	display: inline;
+	zoom: 1;
+}
+.styled div:first-child {
+	margin-left: 0;
+}
+.styled div span {
+	display: block;
+	font-size: 18px;
+	margin-top: -10px;
+	font-weight: normal;
+	text-align: center;
+}
+#home:before {
+  content: ' ';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  opacity: 1;	
+	/*background: url('../images/wedding-cake-toppers-115556_1280.jpg');*/
+	background: url('../images/wedding-cake-toppers-115556_1281.png');
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-position: center top;
+}
+#home {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+
+#home .heading { 
+	margin-top: 18%;
+}
+#home .heading h2 {
+	color: #fff;
+	font-size: 54px !important;
+}
+#home .heading strong {
+	color: #fff;
+	font-size: 30px;
+	font-weight: normal;
+}
+#home .heading h1 { 
+	font-size: 84px !important;
+  font-family: 'Pacifico', cursive;
+  color:#000;
+  text-shadow: 2px 2px #fff;
+  padding: 30px 0;
+}
+#home .heading h2 {
+	color: #000;
+    font-family: 'Pacifico', cursive;
+	font-size: 34px !important;
+}
+#home .heading h3 {
+	color: #000; 
+	font-size: 24px !important;
+	font-weight: bold;
+}
+
+/***************************************/
+.hero-text p {
+	font-size: 1.6em;
+	color: #fff;
+	font-style: normal;
+	text-shadow: 1px 1px 1px #8F8F8F;
+}
+.arrow-link {
+	display: inline-block;
+	font-size: 32px;
+	margin-top: 20px;
+	height: 60px;
+	line-height: 60px;
+	overflow: hidden;
+	text-align: center;
+	vertical-align: top;
+	width: 60px;
+}
+a.arrow-link {
+	color: #FFD500;
+}
+a.arrow-link:hover {
+	color: #fff;
+}
+.colord {
+	background-image: linear-gradient(top, #4F364C, #FFFFFF);
+}
+.colord p {
+	color: #FFFFFF;
+}
+.colord h3 {
+	color: #000;
+}
+.hero-button {
+	text-align: center;
+	background: rgba(255, 255, 255, 0.36);
+	border: 1px solid #fff;
+	padding: 20px;
+	display: inline-block;
+	margin: 0 auto;
+	clear: left;
+	width: auto;
+}
+.hero-img {
+	text-align: center;
+	margin: 124px auto 24px auto;
+}
+.da-slider {
+	margin: 0 auto !important;
+}
+.heading h2 {
+	color: #222;
+}
+#contactUs .heading h2 {
+	color: #fff;
+}
+.sub-heading {
+	padding: 15px 0;
+}
+.sub-heading h2 {
+	font-size: 18px;
+	margin: 15px 0 8px !important;
+}
+.sub-heading p {
+	color: #5A5A5A;
+}
+.heading {
+	padding: 3px 10px;
+	padding-bottom: 15px;
+	margin-bottom: 30px;
+	display: block; 
+}
+.pdingBtm30 {
+	padding-bottom: 30px;
+}
+img, video, iframe, embed, object {
+	max-width: 100%;
+	height: auto;
+}
+
+nav#filter {
+	margin-bottom: 1.5em;
+}
+nav#filter li {
+	display: inline-block;
+	margin: 0 0 0 5px;
+}
+nav#filter a {
+	padding: 4px 12px;
+	line-height: 20px;
+	border: 1px solid #FFD500;
+	text-decoration: none;
+}
+.current {
+	background: #FFD500;
+	color: #fff;
+}
+.page-section.intro {
+	min-height: 600px;
+}
+.btn {
+	font-weight: 200;
+}
+.btn-dark {
+	background: #444;
+	color: #fff;
+}
+.btn-dark:hover {
+	background: #000;
+	color: #fff;
+}
+.back-to-top {
+	display: inline-block;
+	clear: both;
+	background: #fff;
+	color: #333;
+	padding: 0 10px 5px;
+	margin: 20px 0 0;
+	text-shadow: none;
+}
+.back-to-top:hover {
+	background: #333;
+	color: #fff;
+	text-decoration: none;
+}
+hr {
+	border-color: #ddd;
+}
+body {
+	margin: 0;
+	font-family: Arial, sans-serif;
+}
+#navigation {
+	position: fixed;
+	top: 0;
+	right: 0;
+	margin: 0;
+	padding: 0;
+	width: 200px;
+	background: #ffffff;
+	box-shadow: 0 10px 10px -10px #000000;
+}
+#navigation > li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+#navigation > li > a {
+	margin: 1px;
+	color: #000000;
+	background: #cccccc;
+	display: block;
+	padding: 5px;
+	text-decoration: none;
+	transition: all 400ms;
+}
+#navigation > li > a.current, #navigation > li:hover > a {
+	background: #999999;
+}
+.pageSection {
+	min-height: 600px;
+	padding: 20px;
+	background: #dddddd;
+}
+.pageSection:nth-child(odd) {
+	background: #eeeeee;
+}
+.socialIcons li {
+	list-style: none;
+	display: inline;
+	margin-right: 6px;
+}
+footer {
+	padding: 35px 0 15px;
+	background: #FEFDFD;
+}
+.social a:hover {
+	color: #818181;
+}
+.social a {
+	font-size: 32px;
+	margin: 0 10px;
+}
+.contact ul li {
+	margin-bottom: 10px;
+}
+.contact ul li i {
+	margin-right: 15px;
+}
+.portfolio-item img:hover {
+	width: 110%;
+	height: 110%;
+}
+
+@media (min-width: 768px) {
+.header .navbar-brand {
+	padding-left: 0;
+}
+.navbar-nav {
+	float: right;
+}
+.navbar-inverse .navbar-nav > li > a {
+	color: #fff;
+	font-size: 1.1em;
+	padding: 6px 0px !important;
+	border-radius: 5px;
+	margin: 19px 10px;
+}
+}
+
+@media (max-width: 768px) {
+.banner-container {
+	height: 700px;
+}
+#home .heading h2 {
+	font-size: 44px !important;
+}
+#home .heading strong {
+	font-size: 19px;
+}
+.styled div {
+	display: inline-block;
+	margin-left: 10px;
+	font-size: 50px;
+}
+.styled div span {
+	font-size: 23px;
+}
+.row .six {
+	width: auto;
+}
+.hero-img {
+	display: none;
+}
+.header .navbar-nav > li > a {
+	padding: 25px 12px;
+}
+}
+
+@media (max-width:760px) {
+.header .navbar-nav > li > a {
+	padding: 7px 12px;
+	font-size: 14px;
+}
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+	border-color: #A8A8A8;
+}
+}
+
+@media (max-width: 480px) {
+.banner-container {
+	height: 355px;
+}
+#home .heading h1{
+font-size: 43px !important;
+}
+#home .heading h2 {
+	font-size: 34px !important;
+}
+#home .heading h3 {
+color: #000;
+font-size: 20px !important;
+font-weight: bold;
+line-height: 28px;
+}
+#home .heading strong {
+	font-size: 14px;
+}
+.styled div {
+	display: inline-block;
+	margin-left: 10px;
+	font-size: 28px; 
+width: 119px;
+height: 119px;
+margin: 5px;
+}
+.styled div span {
+	font-size: 14px;
+}
+.navbar {
+	min-height: 69px;
+}
+.arrow-link {
+	display: none;
+}
+#section-top ul li a {
+	height: 28px;
+	line-height: 28px;
+	width: 26px;
+}
+.page-section h1 {
+	font-size: 3em;
+}
+.page-section h2 {
+	font-size: 22px;
+}
+.page-section p {
+	font-size: 14px;
+	margin: 0 0 20px;
+}
+.copyright {
+	font-size: 13px;
+}
+}
+
+@media (max-width: 320px) {
+.banner-container {
+}
+.grid .text-content {
+	padding-left: 29%;
+	padding-right: 2%;
+}
+nav#filter li {
+	display: inline-block;
+	margin: 0 0 23px 5px;
+}
+}
+.customNavigation {
+	text-align: center;
+}
+.customNavigation a {
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+.contact-parlex {
+	padding-top: 0px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+.parlex-back {
+	padding: 30px 0;
+	background-color: rgba(240, 73, 178, 1);
+	color: #FDFDFD !important;
+}
+.parlex-back .heading p {
+	color: #FDFDFD;
+	font-weight: normal;
+}
+.customNavigation {
+	display: none;
+}
+#clients .heading {
+	margin: 0px;	
+}
+li.active a {
+	color: #FED400;
+}
+.sposa,
+.sposo {
+	text-align: center;
+}
+.sposa img,
+.sposo img {
+	border-radius: 50%;
+  width: 300px;
+}
+#map-canvas-ricevimento {
+	height:500px;
+}
+.iframe-rwd  {
+	position: relative;
+	padding-bottom: 65.25%;
+	padding-top: 30px;
+	height: 0;
+	overflow: hidden;
+}
+.iframe-rwd iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 50%;
+}
+#viaggio:before {
+  content: ' ';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  opacity: 0.85;	
+	background: url('../images/bamboo-364112_1280.jpg');
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-position: center bottom;
+}
+#viaggio {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+#matrimonio:before {
+  content: ' ';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  opacity: 1;	
+	background: url('../images/palazzo-vecchio.jpg');
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-position: center bottom;
+}
+#matrimonio {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+.bg-white:before {
+  content: ' ';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  opacity: 1;	
+	background-color: rgba(225,225,225,0.7);
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	margin-top: 20px;
+}
+.bg-white {
+  position: relative;
+  overflow: hidden;
+}
+#matrimonio time{
+ font-size: 30px;
+ font-weight: bold;
+}
+.bg-white-text {
+	height:80%;
+	margin-top:10%;
+	margin-bottom:10%;
+}
+#viaggio h2,
+#matrimonio h2{
+  font-family: 'Pacifico', cursive;
+}
+ 
+.bounce {
+	border: 2px solid #000000;
+	border-radius: 50%;
+	bottom: 30px;
+	color: #000000;
+	cursor: pointer;
+	font-size: 33px;
+	height: 60px;
+	left: 50%;
+	position: absolute;
+	text-align: center;
+	vertical-align: super;
+	width: 60px;
+	animation: bounce 2s infinite;
+	-webkit-animation: bounce 2s infinite;
+	-moz-animation: bounce 2s infinite;
+	-o-animation: bounce 2s infinite;
+}
+.topHome {
+	position: absolute;
+  right: 30px;
+  color: #000000;
+  border: 2px solid #000000;
+	border-radius: 50%;
+	bottom: 30px;
+	cursor: pointer;
+	font-size: 33px;
+	height: 60px;
+	text-align: center;
+	vertical-align: super;
+	width: 60px;
+}
+ 
