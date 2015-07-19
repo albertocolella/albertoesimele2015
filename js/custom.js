@@ -10,4 +10,17 @@ $(document).ready(function(){
   $('.topHome').click(function(e){
     $('.main').moveTo(1);
   });
+
+
+  $.i18n.init({
+      //lng: 'en',
+      escapeInterpolation: false,
+      ns: { namespaces: ['ns.common'], defaultNs: 'ns.common'},
+      useLocalStorage: false,
+      debug: true
+  }, function(t) {
+      $('#home').i18n();
+      $('#matrimonio').i18n();
+      $('#viaggio').i18n();
+  });
 });

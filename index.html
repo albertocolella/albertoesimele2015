@@ -30,14 +30,20 @@
 <body>
 <!--/.header-->
 <div id="#top"></div>
+<nav class="nav-lang">
+  <ul class="nav nav-pills">
+    <li><a href="?setLng=it">IT</a></li>
+    <li><a href="?setLng=en">EN</a></li>
+  </ul>
+</nav>
 <div class="main">
   <section id="home">
     <div class="container">
       <div class="row">      
         <div class="heading text-center">
-          <h2>Ci sposiamo!</h2>
+          <h2 data-i18n="home.heading1">Ci sposiamo!</h2>
           <h1>Alberto & Simele</h1>
-          <h3>26 Settembre 2015, Firenze</h3> 
+          <h3 data-i18n="home.heading3">26 Settembre 2015, Firenze</h3> 
         </div>    
       </div>
       <div class="bounce movedown">
@@ -49,13 +55,13 @@
     <div class="container">
       <div class="row">
         <div class="col-md-6">
-          <h2>Il Matrimonio</h2>
-          <time datetime="2015-09-26 11:00-0000">26 Settembre ore 11:00</time>
+          <h2 data-i18n="matrimonio.title">Il Matrimonio</h2>
+          <time datetime="2015-09-26 11:00-0000" data-i18n="matrimonio.time">26 Settembre ore 11:00</time>
           <div class="adr">
-             <div class="street-address" style="font-weight:bold">Sala Rossa</div>
-             <div class="street-address" style="font-weight:bold">Palazzo Vecchio</div>
-             <div class="extended-address">Piazza della Signoria</div>
-             <span class="locality">Firenze</span>
+             <div class="street-address" data-i18n="matrimonio.where1">Sala Rossa</div>
+             <div class="street-address" data-i18n="matrimonio.where2">Palazzo Vecchio</div>
+             <div class="extended-address" data-i18n="matrimonio.where3">Piazza della Signoria</div>
+             <span class="locality" data-i18n="matrimonio.where4">Firenze</span>
              <div class="website"><a href="http://museicivicifiorentini.comune.fi.it/palazzovecchio">museicivicifiorentini.comune.fi.it/palazzovecchio</a></div>
           </div>
         </div>
@@ -70,12 +76,12 @@
   <section id="viaggio">
     <div class="container">
       <div class="row"> 
-        <h2>Il Viaggio</h2>
+        <h2 data-i18n="viaggio.title">Il Viaggio</h2>
         <div class="col-md-4 bg-white">
-            <p style="padding-top:50px">
+            <p style="padding-top:50px" data-i18n="viaggio.p1">
             In viaggio di nozze ce ne andiamo in <strong>Giappone!</strong></p>
-            <p>Se siete felici per noi e volete aiutarci con il viaggio oppure se ci tenete a mandarci il più lontano possibile per un pò, qui trovate gli estremi della nostra lista viaggio</p>
-            <p>Grazie per il vostro sostegno!</p>
+            <p data-i18n="viaggio.p2">Se siete felici per noi e volete aiutarci con il viaggio oppure se ci tenete a mandarci il più lontano possibile per un pò, qui trovate gli estremi della nostra lista viaggio</p>
+            <p data-i18n="viaggio.p3">Grazie per il vostro sostegno!</p>
         </div>
         <div class="col-md-2">
         </div>
@@ -84,7 +90,7 @@
              <div class="street-address" style="font-weight:bold">Agenzia Viaggi Laurasia</div>
              <div class="street-address">via Matteotti 39</div>
              <span class="locality">Sesto Fiorentino (Firenze)</span>
-             <div class="website"><a href="https://www.facebook.com/agenziaviaggilaurasia">pagina facebook</a></div>
+             <div class="website"><a href="https://www.facebook.com/agenziaviaggilaurasia" data-i18n="viaggio.where4">pagina facebook</a></div>
           </div>
           <p>IBAN: </p>
         </div>        
@@ -101,6 +107,7 @@
 <script src="js/jquery-1.11.3.min.js" type="text/javascript"></script> 
 <script src="js/bootstrap.min.js" type="text/javascript"></script>
 <script src="js/jquery.onepage-scroll.min.js"></script>
+<script src="js/i18next.min.js"></script>
 <script src="js/custom.js" type="text/javascript"></script> 
 </body>
 </html>
