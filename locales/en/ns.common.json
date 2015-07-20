@@ -17,8 +17,10 @@
     },
     "contatti": {
       "title": "Contact us",
-      "p1": "Do you need to contact us?",
-      "website": "Visit albertocolella.com",
-      "email": "Send me an email"
+      "p1": "Do you have questions, suggestions or you need to contact us? Do you want to say hi or send us your wishes?",
+      "email": "Send us an email",
+      "author1": "Bootstrap v3 theme created with ",
+      "author2": " by ",
+      "photocredits": "Photo credits:"
     }
 }  

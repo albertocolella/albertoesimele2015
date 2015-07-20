@@ -197,115 +197,16 @@ h2, .h2 {
 }
 
 /***************************************/
-.hero-text p {
-	font-size: 1.6em;
-	color: #fff;
-	font-style: normal;
-	text-shadow: 1px 1px 1px #8F8F8F;
-}
-.arrow-link {
-	display: inline-block;
-	font-size: 32px;
-	margin-top: 20px;
-	height: 60px;
-	line-height: 60px;
-	overflow: hidden;
-	text-align: center;
-	vertical-align: top;
-	width: 60px;
-}
-a.arrow-link {
-	color: #FFD500;
-}
-a.arrow-link:hover {
-	color: #fff;
-}
-.colord {
-	background-image: linear-gradient(top, #4F364C, #FFFFFF);
-}
-.colord p {
-	color: #FFFFFF;
-}
-.colord h3 {
-	color: #000;
-}
-.hero-button {
-	text-align: center;
-	background: rgba(255, 255, 255, 0.36);
-	border: 1px solid #fff;
-	padding: 20px;
-	display: inline-block;
-	margin: 0 auto;
-	clear: left;
-	width: auto;
-}
-.hero-img {
-	text-align: center;
-	margin: 124px auto 24px auto;
-}
-.da-slider {
-	margin: 0 auto !important;
-}
-.heading h2 {
-	color: #222;
-}
-#contactUs .heading h2 {
-	color: #fff;
-}
-.sub-heading {
-	padding: 15px 0;
-}
-.sub-heading h2 {
-	font-size: 18px;
-	margin: 15px 0 8px !important;
-}
-.sub-heading p {
-	color: #5A5A5A;
-}
+
 .heading {
 	padding: 3px 10px;
 	padding-bottom: 15px;
 	margin-bottom: 30px;
 	display: block; 
 }
-.pdingBtm30 {
-	padding-bottom: 30px;
-}
 img, video, iframe, embed, object {
 	max-width: 100%;
 	height: auto;
-}
-
-nav#filter {
-	margin-bottom: 1.5em;
-}
-nav#filter li {
-	display: inline-block;
-	margin: 0 0 0 5px;
-}
-nav#filter a {
-	padding: 4px 12px;
-	line-height: 20px;
-	border: 1px solid #FFD500;
-	text-decoration: none;
-}
-.current {
-	background: #FFD500;
-	color: #fff;
-}
-.page-section.intro {
-	min-height: 600px;
-}
-.btn {
-	font-weight: 200;
-}
-.btn-dark {
-	background: #444;
-	color: #fff;
-}
-.btn-dark:hover {
-	background: #000;
-	color: #fff;
 }
 .back-to-top {
 	display: inline-block;
@@ -584,13 +485,17 @@ li.active a {
   height: 100%;
   z-index: -1;
   opacity: 0.85;	
-	background: url('../images/bamboo-364112_1280.jpg');
+	/*background: url('../images/bamboo-364112_1280.jpg');*/
+	/*background: url('../images/torii-363637_1920.jpg');*/
+	/*background: url('../images/bamboo-566450_1920.jpg');*/
+	/*background: url('../images/japan-86183_1920.jpg');*/
+	background: url('../images/japan-477827_1920.jpg');
 	background-repeat: no-repeat;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	background-position: center bottom;
+	background-position: center center;
 }
 #viaggio {
   position: relative;
@@ -607,7 +512,8 @@ li.active a {
   height: 100%;
   z-index: -1;
   opacity: 1;	
-	background: url('../images/palazzo-vecchio.jpg');
+	/*background: url('../images/palazzo-vecchio.jpg');*/
+	background: url('../images/Piazza_Signoria_-_Firenze.jpg');
 	background-repeat: no-repeat;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -629,14 +535,15 @@ li.active a {
   width: 100%;
   height: 100%;
   z-index: -1;
-  opacity: 0.4;	
-	background: url('../images/38F072B2D5.jpg');
+  opacity: 0.7;	
+	/*background: url('../images/38F072B2D5.jpg');*/
+	background: url('../images/krzysztof-13.jpg');
 	background-repeat: no-repeat;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	background-position: center bottom;
+	background-position: center top;
 }
 #contatti {
   position: relative;
@@ -693,10 +600,12 @@ li.active a {
 	text-align: center;
 	vertical-align: super;
 	width: 60px;
-	animation: bounce 2s infinite;
-	-webkit-animation: bounce 2s infinite;
-	-moz-animation: bounce 2s infinite;
-	-o-animation: bounce 2s infinite;
+	animation: bounce 3s infinite;
+	-webkit-animation: bounce 3s infinite;
+	-moz-animation: bounce 3s infinite;
+	-o-animation: bounce 3s infinite;
+	-webkit-animation-delay: 3s;
+  animation-delay: 3s;
 }
 .topHome {
 	position: absolute;
@@ -738,6 +647,11 @@ li.active a {
 .mail {
 	color: #000000;
 }
-.website {
-	color: #000000;
+.footer {
+	bottom: 0;
+  position: absolute;
+  font-size:12px;
+}
+.footer .author {
+	font-size:12px;
 }
