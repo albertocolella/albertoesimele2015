@@ -229,226 +229,7 @@ body {
 	margin: 0;
 	font-family: Arial, sans-serif;
 }
-#navigation {
-	position: fixed;
-	top: 0;
-	right: 0;
-	margin: 0;
-	padding: 0;
-	width: 200px;
-	background: #ffffff;
-	box-shadow: 0 10px 10px -10px #000000;
-}
-#navigation > li {
-	margin: 0;
-	padding: 0;
-	list-style: none;
-}
-#navigation > li > a {
-	margin: 1px;
-	color: #000000;
-	background: #cccccc;
-	display: block;
-	padding: 5px;
-	text-decoration: none;
-	transition: all 400ms;
-}
-#navigation > li > a.current, #navigation > li:hover > a {
-	background: #999999;
-}
-.pageSection {
-	min-height: 600px;
-	padding: 20px;
-	background: #dddddd;
-}
-.pageSection:nth-child(odd) {
-	background: #eeeeee;
-}
-.socialIcons li {
-	list-style: none;
-	display: inline;
-	margin-right: 6px;
-}
-footer {
-	padding: 35px 0 15px;
-	background: #FEFDFD;
-}
-.social a:hover {
-	color: #818181;
-}
-.social a {
-	font-size: 32px;
-	margin: 0 10px;
-}
-.contact ul li {
-	margin-bottom: 10px;
-}
-.contact ul li i {
-	margin-right: 15px;
-}
-.portfolio-item img:hover {
-	width: 110%;
-	height: 110%;
-}
 
-@media (min-width: 768px) {
-.header .navbar-brand {
-	padding-left: 0;
-}
-.navbar-nav {
-	float: right;
-}
-.navbar-inverse .navbar-nav > li > a {
-	color: #fff;
-	font-size: 1.1em;
-	padding: 6px 0px !important;
-	border-radius: 5px;
-	margin: 19px 10px;
-}
-}
-
-@media (max-width: 768px) {
-.banner-container {
-	height: 700px;
-}
-#home .heading h2 {
-	font-size: 44px !important;
-}
-#home .heading strong {
-	font-size: 19px;
-}
-.styled div {
-	display: inline-block;
-	margin-left: 10px;
-	font-size: 50px;
-}
-.styled div span {
-	font-size: 23px;
-}
-.row .six {
-	width: auto;
-}
-.hero-img {
-	display: none;
-}
-.header .navbar-nav > li > a {
-	padding: 25px 12px;
-}
-}
-
-@media (max-width:760px) {
-.header .navbar-nav > li > a {
-	padding: 7px 12px;
-	font-size: 14px;
-}
-.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
-	border-color: #A8A8A8;
-}
-}
-
-@media (max-width: 480px) {
-.banner-container {
-	height: 355px;
-}
-#home .heading h1{
-font-size: 43px !important;
-}
-#home .heading h2 {
-	font-size: 34px !important;
-}
-#home .heading h3 {
-color: #000;
-font-size: 20px !important;
-font-weight: bold;
-line-height: 28px;
-}
-#home .heading strong {
-	font-size: 14px;
-}
-.styled div {
-	display: inline-block;
-	margin-left: 10px;
-	font-size: 28px; 
-width: 119px;
-height: 119px;
-margin: 5px;
-}
-.styled div span {
-	font-size: 14px;
-}
-.navbar {
-	min-height: 69px;
-}
-.arrow-link {
-	display: none;
-}
-#section-top ul li a {
-	height: 28px;
-	line-height: 28px;
-	width: 26px;
-}
-.page-section h1 {
-	font-size: 3em;
-}
-.page-section h2 {
-	font-size: 22px;
-}
-.page-section p {
-	font-size: 14px;
-	margin: 0 0 20px;
-}
-.copyright {
-	font-size: 13px;
-}
-}
-
-@media (max-width: 320px) {
-.banner-container {
-}
-.grid .text-content {
-	padding-left: 29%;
-	padding-right: 2%;
-}
-nav#filter li {
-	display: inline-block;
-	margin: 0 0 23px 5px;
-}
-}
-.customNavigation {
-	text-align: center;
-}
-.customNavigation a {
-	-webkit-user-select: none;
-	-khtml-user-select: none;
-	-moz-user-select: none;
-	-ms-user-select: none;
-	user-select: none;
-	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-}
-.contact-parlex {
-	padding-top: 0px;
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-}
-.parlex-back {
-	padding: 30px 0;
-	background-color: rgba(240, 73, 178, 1);
-	color: #FDFDFD !important;
-}
-.parlex-back .heading p {
-	color: #FDFDFD;
-	font-weight: normal;
-}
-.customNavigation {
-	display: none;
-}
-#clients .heading {
-	margin: 0px;	
-}
-li.active a {
-	color: #FED400;
-}
 .sposa,
 .sposo {
 	text-align: center;
@@ -585,6 +366,7 @@ li.active a {
 #matrimonio h2,
 #contatti h2{
   font-family: 'Pacifico', cursive;
+  text-shadow: 2px 2px #fff;
 }
  
 .bounce {
@@ -654,4 +436,11 @@ li.active a {
 }
 .footer .author {
 	font-size:12px;
+}
+
+
+@media (max-width: 400px) {
+	#viaggio p {
+		font-size:13px;
+	}
 }
