@@ -454,6 +454,9 @@ body {
 .footer .author {
 	font-size:12px;
 }
+.website a {
+	word-break: break-all;
+}
 
 
 @media (max-width: 1000px) {
