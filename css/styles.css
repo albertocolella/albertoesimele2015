@@ -286,6 +286,20 @@ body {
   overflow: hidden;
   width: 100%;
 }
+#viaggio .secrow{
+	position: relative;
+}
+#viaggio .seccol{
+	position: absolute;
+  right: 0;
+  height: 100%;
+}
+#viaggio .bg-white {
+	padding-top:50px;
+}
+#viaggio .lista ul {
+	list-style-type: none;
+}
 #matrimonio:before {
   content: ' ';
   display: block;
@@ -442,8 +456,24 @@ body {
 }
 
 
+@media (max-width: 1000px) {
+	#viaggio .seccol{
+		position: relative;
+	}
+}
 @media (max-width: 400px) {
-	#viaggio p {
+	#viaggio p{
+		margin-top:0px !important;
+	}
+	#viaggio p,
+	#viaggio .adr,
+	#viaggio .lista {
 		font-size:13px;
+	}
+	#viaggio .lista {
+		padding-top:20px;
+	}
+	#viaggio .bg-white{
+		padding-top: 20px;
 	}
 }
