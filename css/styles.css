@@ -479,4 +479,7 @@ body {
 	#viaggio .bg-white{
 		padding-top: 20px;
 	}
+	#viaggio h2 {
+		font-size:60px;
+	}
 }
