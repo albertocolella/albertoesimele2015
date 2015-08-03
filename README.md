@@ -1,6 +1,6 @@
 # wedding-site 
 
-This is the source code of [www.albertosimele2015.com](www.albertosimele2015.com)
+This is the source code of [www.albertosimele2015.com](http://www.albertosimele2015.com)
 
 ## Theme
 
